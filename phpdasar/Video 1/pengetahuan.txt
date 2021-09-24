@@ -1,4 +1,4 @@
-PHP adalah bahasa pemrograman
+PHP adalah bahasa pemrograman.
 
 10 Alasan mengapa kita harus belajar PHP :
 
