@@ -1,4 +1,4 @@
-Sejarah PHP
+Sejarah PHP.
 
 PHP dibuat oleh Rasmus Lerdorf pada tahun 1994
 pada awalnya Rasmus Lerdorf membuat sebuah program dalam bahasa C untuk mengelola halaman web pribadinya
