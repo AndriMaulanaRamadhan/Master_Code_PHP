@@ -13,7 +13,7 @@ PHP adalah bahasa pemrograman
 9. Content management System yang menggunakan PHP (Wordpress, Joomla!, Drupal, Moodle)
 10. Framework PHP (Code igniter, Cake PHP, Yii Framework, Laravel, Symfony)
 
-Yang harus disiapkan : 
+Yang harus disiapkan :
 
 1. Code editor
 2. Web server
