@@ -1,0 +1,49 @@
+Sintaks dasar PHP
+
+tag komentar dibuat untuk memberi komentar untuk project dan tidak berpengaruh pada website
+penulisan tag komentar ada 2 yaitu :
+
+// ini adalah komentar 1 baris
+
+/* ini adalah komentar banyak baris
+dan dibuat dengan sesuka hati tergantung banyaknya
+komentar */
+
+untuk shortcut dalam membuat komentar caranya yaitu, blok area yang mau di komentar lalu gunakan CTRL + / (slash)
+untuk mengembalikannya lagi tinggal CTRL + / (slash) lagi
+
+echo digunakan untuk mencetak seperti nama (string)
+fungsi print sama aja fungsinya dengan echo
+print_r juga sama fungsinya dengan echo
+
+<br> berfungsi untuk membuat garis baru
+
+var_dump juga fungsinya sama seperti echo akan tetapi tambahannya adalah juga menampilkan tipe data apa dan jumlahnya berapa
+biasanya var dump digunakan untuk debugging karena memunculkan informasi tambahan yang ditampilkan
+
+catatan kalau memanggil tipe data integer atau angka penulisan tidak memakai tanda kutip
+dapat juga memanggil boolean yaitu true / false di echo
+
+menggunakan echo bisa memakai kutip dua ("") atau kutip 1 ('')
+akan tetapi jika dalam keadaan tertentu seperti kata jum'at karna ada kutip 1 diantara huruf m dan a maka diwajibkan memakai kutip 2 agar echo tidak memiliki error
+
+tips : jika menemukan error jangan panik, kalian lihat filenya ada dimana dan line berapa errornya
+
+pada penulisan sintaks php, penulisan html didalam php tidak direkomendasikan
+
+variabel digunakan untuk menampung sebuah nilai
+jadi variabel yang sudah dibuat bisa dipanggil di tempat lain (akan tetapi tidak bisa dipanggil jika variabelnya diletakkan sesudah tempat yang mau dipanggil)
+
+aturan variabel :
+1. tidak boleh diawali dengan angka tapi boleh mengandung angka
+
+kutip dua lebih sakti dari kutip 1 karena dengan menggunakan kutip 2 kita bisa menggunakan konsep interpolasi
+interpolasi adalah untuk mengecek apakah didalam kutip 2 atau string terdapat variabel atau ngga
+kalau ada variabel didalam kutip 2 maka yang ditampilkan adalah isi variabelnya
+
+modulus (%) adalah sisa bagi
+
+operator perbadingan biasanya dipakai ketika pengkondisian
+
+jika memakai operator logika &&, kondisi dinyatakan true jika kedua kondisinya benar
+jika memakai operator logika ||, kondisi dinyatakan true jika 1 atau keduanya benar
