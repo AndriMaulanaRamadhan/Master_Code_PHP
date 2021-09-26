@@ -1,0 +1,35 @@
+Function
+
+potongan kode yang  kita buat untuk mempermudah membuat program, kode program tadi bisa kita kasih nama lalu bisa panggil berulang-ulang
+
+di php ada 2 function yaitu :
+built in function (fungsi yang dimiliki oleh php)
+user defined function
+
+link lengkap built in function : http://php.net/manual/en/funcref.php
+
+yang sering digunakan :
+date/time, tagnya yaitu : time(), date(), mktime(), strtotime()
+
+date untuk menampilkan tanggal dengan format tertentu
+
+untuk info lengkapnya tinggal cari di php net
+
+yang berhubungan dengan string : strlen(), strcmp(), explode(), htmlspecialchars()
+strlen() untuk menghitung panjang dari sebuah string
+strcmp() untuk membangingkan 2 buah string
+explode() untuk memecah string menjadi array
+htmlspecialchars() untuk mencegah orang yang iseng masuk ke website kita misalnya hacker
+
+yang berhubungan dengan utility : var_dump(), isset(), empty(), die(), sleep()
+var_dump untuk mencetak isi dari sebuah variabel, array, objek
+isset() untuk mengecek apakah sebuah variabel sudah pernah dibikin atau belum, hasilnya boolean
+empty() apakah variabel yang diisi itu kosong atau tidak
+die() untuk memberhentikan program kita / kode yang berada dibawahnya akan terhenti
+sleep() untuk memberhentikan sementara
+
+User defined function
+
+sudah ada di veri javascriptnya
+
+untuk mengatasi lupa memasukkan argumen maka buatlah argumen deffault
